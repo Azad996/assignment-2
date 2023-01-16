@@ -1,0 +1,280 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+header {
+    background-color: beige;
+}
+
+p {
+    color: gray;
+}
+
+.container {
+    padding: 40px;
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header-img{
+    padding: 20px;
+}
+.header-head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-text-G {
+    font-size: 40px;
+}
+
+.header-text-b {
+    font-size: 40px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: large;
+}
+
+.header-text {
+    display: block;
+    text-align: center;
+}
+
+.header-img {
+    display: block;
+    margin-left: 200px;
+}
+
+.header-button {
+    padding: 20px 30px;
+    border-radius: 8px;
+    background-color: rgb(247, 167, 19);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+.header-button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.Features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quick {
+    color: black;
+}
+
+.of {
+    color: grey;
+}
+
+.fe {
+    color: rgb(247, 167, 19);
+}
+
+.Features-image img {
+    padding: 10px;
+}
+
+.Features-text {}
+
+.Features-text-q {
+    font-size: 40px;
+}
+
+.love {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.text {
+    box-shadow: 4px 5px 15px gray;
+    font-size: 15px;
+    padding: 45px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.text1 {
+    border-left: 5px solid rgb(247, 167, 19);
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.Experience-button {
+    background-color: rgb(247, 167, 19);
+    position: absolute;
+    bottom: 0;
+    padding: 20px 85px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.love-butn {
+    position: relative;
+    text-align: center;
+}
+
+.love-butn img {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+.love-butn h1 {
+    font-size: 30px;
+}
+
+.new-text {
+    text-align: center;
+    font-size: 40px;
+}
+
+.nw-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.nw-img img {
+    height: 200px;
+    width: 400px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.icon img {
+    height: 70px;
+    width: 70px;
+}
+
+.icon {
+    box-shadow: 2px 2px 2px 4px rgb(233, 206, 158);
+    border-radius: 15px;
+    padding: 50px 70px;
+    transition: 2000ms;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.sponsors-text {
+    display: block;
+    text-align: center;
+    font-size: larger;
+}
+
+.sponsors-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-sec {
+    background-color: beige;
+    text-align: center;
+}
+
+@media only screen and (max-width: 550px) {
+    .header-head {
+        display: block;
+    }
+
+    .nav {
+        display: inline;
+    }
+
+    .header-img {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    .Features {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .love {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Experience-button {
+        background-color: rgb(247, 167, 19);
+        position: static;
+        bottom: 0;
+    }
+
+    .love-butn {
+        position: static;
+        text-align: center;
+    }
+
+    .love-butn img {
+        position: static;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .nw-img {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nw-img img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icon{
+        margin-top: 10px;
+    }
+    
+    .icon img {
+        height: 70px;
+        width: 70px;
+        
+    }
+
+    .sponsors-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sponsors-image img{
+        margin-top: 10px;
+    }
+}
