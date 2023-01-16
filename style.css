@@ -15,7 +15,7 @@ p {
 }
 
 main {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -48,9 +48,8 @@ main {
     text-align: center;
 }
 
-.header-img {
-    display: block;
-    margin-left: 200px;
+.header-img img{
+    width: 100%;
 }
 
 .header-button {
@@ -103,7 +102,7 @@ main {
 .text {
     box-shadow: 4px 5px 15px gray;
     font-size: 15px;
-    padding: 45px;
+    padding: 25px;
     border-radius: 8px;
     margin-top: 15px;
 }
@@ -130,7 +129,8 @@ main {
 
 .love-butn img {
     position: absolute;
-    top: 150px;
+    width: 100%;
+    top: 250px;
     left: 50px;
 }
 
